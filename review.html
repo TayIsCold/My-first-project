@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thai Restaurant</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body class="bg-secondary">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a  class="navbar-brand" href="index.html"><img src="Image/res-logo.png" alt="logo" width="55px" height="55px"></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#show">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="show">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link fs-3">Home</a></li>
+                    <li class="nav-item"><a href="aboutus.html" class="nav-link fs-3" >About Us</a></li>
+                    <li class="nav-item"><a href="menu.html"  class="nav-link fs-3">Menu</a></li>
+                    <li class="nav-item"><a href="review.html" class="nav-link fs-3">Review</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <form class="p-3 bg-light">
+                    <h2 class="mb-5">Review Form</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="form-check-label" for="fname">First Name<span class="red-star">*</span></label><br>
+                            <input id="fname" type="text" class="form-control" placeholder="First Name"><br>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-check-label" for="lname">Last Name<span class="red-star">*</span></label><br>
+                            <input id="lname" type="text" class="form-control" placeholder="Last Name"><br>
+                        </div>
+                    </div>
+                    <label class="form-check-label" for="email">Email<span class="red-star">*</span></label><br>
+                    <input id="email" type="email" class="form-control" placeholder="Enter Your Email"><br>
+                    <label class="form-check-label" for="desc">Description<span class="red-star">*</span></label><br>
+                    <textarea class="form-control" name="description" id="desc"></textarea><br>
+                    <label for="file" class="form-check-label">File (optional)</label><br>
+                    <input type="file" class="form-control" id="file">
+                    <button id="submit" type="submit" class="btn btn-success mt-3">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <img src="Image/res5.jpg" alt="Image" width="100%" height="530px">
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark mt-5" width:300px;>
+        <div class="row">
+            <div class="col-md-4 mt-4 ps-5" id="one">
+                <h1>Shwe Restaurant</h1>
+                <p>Check out more in the <a href="menu.html">Menu!</a> </p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div>
+                    <label class="form-label" for="email">Email Address</label>
+                    <input class="form-control" type="email" id="email">
+                    <div class="form-text text-success mb-1">Submit your Email here.</div>
+                    <div class="btn bg-primary">Subscribe</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mt-5 ms-4 icon">
+                 <a href="https://twitter.com/TayZaWinTun1"><i class="bi bi-twitter"></i></a> 
+                 <a href="https://www.instagram.com/tayzfr/"><i class="bi bi-instagram"></i></a> 
+                 <a href="https://www.facebook.com/tay.tun.7374"><i class="bi bi-facebook"></i></a> 
+                </div>
+            </div>
+        </div>
+     </footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.red-star{
+    color:red;
+}
+form{
+    box-shadow:1px 1px 20px lightblue;
+    width:100%;
+}
+#submit{
+    width:100%; 
+    height:50px;
+    color:black;
+}

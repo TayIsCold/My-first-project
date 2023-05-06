@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thai Restaurant</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a  class="navbar-brand" href="index.html"><img src="Image/res-logo.png" alt="logo" width="55px" height="55px"></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#show">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="show">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link fs-3">Home</a></li>
+                    <li class="nav-item"><a href="aboutus.html" class="nav-link fs-3" >About Us</a></li>
+                    <li class="nav-item"><a href="menu.html" class="nav-link fs-3">Menu</a></li>
+                    <li class="nav-item"><a href="review.html" class="nav-link fs-3">Review</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    &nbsp;
+    <div class="carousel slide carousel-dark" id="carousel-id">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-id" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel-id" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-id" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carousel-id" data-bs-slide-to="3"></button>
+        </div>  
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Image/pad-thai1.jpg" alt="Pad Thai" width="100%" height="500px">
+            </div>
+            <div class="carousel-item">
+                <img src="Image/papaya-salad.jfif" alt="Papaya Salad" width="100%" height="500px">
+            </div>
+            <div class="carousel-item">
+                <img src="Image/thai-egg-stew.jfif" alt="Thai Egg Stew" width="100%" height="500px">
+            </div>
+            <div class="carousel-item">
+                <img src="Image/tom-yum.jfif" alt="Tom Yum" width="100%" height="500px">
+            </div>
+        </div>
+        <button type="submit" class="carousel-control-prev" data-bs-target="#carousel-id" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button type="submit" class="carousel-control-next" data-bs-target="#carousel-id" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div class="container mt-3 mb-5">
+        <h3 Align="center">About Our Restaurant</h3>
+            <p style="font-weight:500; font-size:20px;">
+            Welcome to Shwe restaurant. Our restaurant offers daily fresh curries. Thai restaurant has 3 branches in total. Two at Yangon and one at Mandalay.
+            The services are really good. We offers our customers with the good services and delicious fresh Thai curries.
+            </p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="Image/res1.jpeg" alt="Image" width="100%" height="300px">
+            </div>
+            <div class="col-md-4">
+                <img src="Image/res2.webp" alt="Image" width="100%" height="300px">
+            </div>
+            <div class="col-md-4">
+                <img src="Image/res3.jfif" alt="Image" width="100%" height="300px">
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark mt-5" width:300px;>
+        <div class="row">
+            <div class="col-md-4 mt-4 ps-5" id="one">
+                <h1>Shwe Restaurant</h1>
+                <p>Check out more in the <a href="menu.html">Menu!</a> </p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div>
+                    <label class="form-label" for="email">Email Address</label>
+                    <input class="form-control" type="email" id="email">
+                    <div class="form-text text-success mb-1">Submit your Email here.</div>
+                    <div class="btn bg-primary">Subscribe</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mt-5 ms-4 icon">
+                 <a href="https://twitter.com/TayZaWinTun1"><i class="bi bi-twitter"></i></a> 
+                 <a href="https://www.instagram.com/tayzfr/"><i class="bi bi-instagram"></i></a> 
+                 <a href="https://www.facebook.com/tay.tun.7374"><i class="bi bi-facebook"></i></a> 
+                </div>
+            </div>
+        </div>
+     </footer>
+</body>
+</html>
